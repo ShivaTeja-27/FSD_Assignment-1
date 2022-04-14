@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 1</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+   <center><h1>HTML Assignment 1</h1></center> 
+<h2>HTML</h2>
+<p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content."Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web.</p>
+
+    <!-- Table using html -->
+
+<h1>Qus-1) Explain the following HTML elements using an appropriate 
+    example other than covered in the class :
+     </h1>
+<h2><b>Table</b></h2>
+<table border="3" >
+<thead>
+    <caption><b>Mobile devices list</b></caption>
+    </thead>
+    </thead>
+    <tr>
+        <th>Brand</th>
+        <th>Processor type</th>
+        <th>operating System</th>
+        <th>RAM</th>
+        <th>Storage</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <tbody>
+            <td>Samsung</td>
+            <td>Snapdragon 665</td>
+            <td>Lolipop 5.0</td>
+            <td>4 GB</td>
+            <td>32 GB</td>
+            <td>12,000</td>
+        </tbody>
+    </tr>
+    <tr>
+        <tbody>
+            <td>Apple</td>
+            <td>M1 chip</td>
+            <td>IOS 13</td>
+            <td>4 GB</td>
+            <td>256 GB</td>
+            <td>50,000</td>
+        </tbody>
+    </tr>
+    <tr>
+        <tbody>
+            <td>Oppo</td>
+            <td>Mediatek dimensity 700</td>
+            <td>Android 11.0</td>
+            <td>8 GB</td>
+            <td>128 GB</td>
+            <td>20,000</td>
+        </tbody>
+    </tr>
+    <tr>
+        <tbody>
+            <td>Realme</td>
+            <td>Mediatek dimensity 1200</td>
+            <td>Android 12.0</td>
+            <td>4 GB</td>
+            <td>32 GB</td>
+            <td>22,000</td>
+        </tbody>
+    </tr>
+    <tr>
+        <tbody>
+            <td>Motorola</td>
+            <td>Snapdragon 720</td>
+            <td>NAuGOUT 7.0</td>
+            <td>6 GB</td>
+            <td>64 GB</td>
+            <td>30,000</td>
+        </tbody>
+    </tr>
+</thead>
+</table>
+<br>
+
+<!-- ol & ul  -->
+
+<caption><b><h3>Ordered</h3></b></caption>
+<!-- ordered list  -->
+    <ol>
+        <li>This </li>
+        <li>is </li>
+        <li>an</li>
+        <li>ORDERED</li>
+        <li>LIST</li>
+    </ol>
+    <caption><b><h3>Un-ordered list</h3></b></caption>
+    <!-- un-ordered list  -->
+    <ul>    
+        <li> THIS IS AN UN-ORDERED LIST</li>
+        <li> blue</li>
+        <li>green</li>
+        <li>orange</li>
+    </ul>
+
+<!-- forms -->
+
+<h3><b>Forms:</b></h3>
+<div class="form1">
+<form>
+    <hr>
+    <label for="email">Enter your email: </label><br>
+    <input type="email" placeholder="email id">
+    <hr>
+
+    <label for="">Date of Birth :</label><br>
+       <input type="date" name="" id=""> <br> <br>
+    <hr>
+    
+    <label for="password">Enter your password: </label><br>
+    <input type="password" placeholder="password">
+    <hr>
+
+    <label for="confirm">confirm your password: </label><br>
+    <input type="confirm password" placeholder="confirm">
+    <hr>
+    <input id="btn1" type="submit" value="submit">
+
+    <h3>Self ending Tags</h3>
+    <p>A self closing tags in HTML are the type of HTML tags that need not to be closed manually by its closing tag, which means there is no saperate closing tag for it as </tag>.A few examples of self closing tags are <b>&lt;img&gt;,&lt;input&gt;, &lt;br&gt;, &lt;hr&gt;, etc.</b></p>
+    <br>
+</form>
+</div>
+
+<!--Q2 Html on creating Heading -->
+
+<h3><b>Q. 2) - Let’s assume I want to build a website which contains/shows HTML codes to the client. 
+    (Please take https://www.internetingishard.com/html-and-css/basic-web-pages/ HYPERLINK 
+    "https://www.internetingishard.com/html-and-css/basic-web-pages/" as an reference) Write a 
+    HTML document code which displays ‘My Document’ as a document heading.
+    </b></h3>
+    <hr>
+    <div style="border: solid 1px;">
+        &lt;html&gt; <br> <br>
+      &nbsp;&nbsp;&nbsp;&lt;head&gt; <br> <br>
+      &nbsp;&nbsp;&nbsp;&lt;/head&gt; <br> <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br> <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&lt;h1&gt; My Document &lt;/h1&gt; <br> <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br> <br>
+    &lt;/html&gt;
+    </div>
+    <br>
+    <hr>
+    <br>   
+    <hr>
+
+    <!--Example for my document-->
+    <center><h1>MY Document</h1></center>
+    <hr>
+    <h6><p>HTML defines the content of every web page on the Internet. By “marking up” your raw content with HTML tags, you’re able to tell web browsers how you want different parts of your content to be displayed. Creating an HTML document with properly marked up content is the first step of developing a web page. Diagram: raw content turning into HTML markup turning into a web page In this chapter, we’ll build our first web page. It’ll look like crap because it won’t have any CSS attached to it, but it will serve as a thorough introduction to the HTML elements that web developers work with on a daily basis. As you work your way through the examples, try to approach them as a more hands-on version of a WYSIWYG editor like Google Docs or Microsoft Word. We’ll be working with all the same types of content (headings, paragraphs, lists, etc), we’ll just be defining them a little bit more explicitly with HTML. setup Let’s get started by creating a new project with Atom called basic-web-pages. Then, make a new file called basics.html in that folder. This HTML file represents a single web page, and it’s where we’ll put all our code for this chapter. If you’re not already set up with Atom, be sure to read the Introduction for this tutorial series. Diagram: editing HTML code in a text editor and viewing changes in a web browser Remember that the basic workflow for web developers is to edit HTML in their text editor and view those changes in a web browser, so this is exactly what you should be doing for each section of this chapter. structure of a web page Add the following HTML markup to our basics.html file. This is what you’ll start with for every single web page you’ll ever produce. Typically, you would use a templating engine of some sort to avoid re-typing the redundant parts, but for this tutorial, we’ll be focusing on the raw HTML. First, we need to tell browsers that this is an HTML5 web page with the line. This is just a special string that browsers look for when they try to display our web page, and it always needs to look exactly like it does above. Then, our entire web page needs to be wrapped in tags. The actual text is called an “opening tag”, while is called a “closing tag”. Everything inside of these tags are considered part of the “element”, which is this ethereal thing that gets created when a web browser parses your HTML tags. Diagram: an HTML element composed of an opening tag and a closing tag Inside of the element, we have two more elements called and . A web page’s head contains all of its metadata, like the page title, any CSS stylesheets, and other things that are required to render the page but you don’t necessarily want the user to see. The bulk of our HTML markup will live in the element, which represents the visible content of the page. Note that opening up our page in a web browser won’t display anything, since it has an empty . Diagram: web page split into and elements The purpose of this / split will become clearer in a few chapters after we start working with CSS. Also notice the HTML comment syntax in the above snippet. Anything that starts with will be completely ignored by the browser. This is useful for documenting your code and making notes to yourself. page titles One of the most important pieces of metadata is the title of your web page, defined by the aptly named When you reload the page in your browser, you should still see an empty page, but you’ll also see Interneting Is Easy! in the browser tab: Web page showing tag: paragraphs Titles are all well and good, but let’s do something we can actually see. The
+
+element marks all the text inside it as a distinct paragraph. Try adding the following
+
+element to the body of our web page:
+First, we need to learn some basic HTML.
+
+You should now be able to see some content on the page. Again, since this is content we want to display, it needs to go in the element, not . Web page showing a
+element with some content in it Also note how the
+
+and
+Interneting Is Easy!
+First, we need to learn some basic HTML.
+
+Headings
+Headings define the outline of your site. There are six levels of headings.
+
+This should result in a web page that looks something like this: Web page showing a big
+element and a smaller
+element Headings are the primary way you mark up different sections of your content. They define the outline of your web page as both humans and search engines see it, which makes selecting relevant headings essential for a high-quality web page. unordered lists Whenever you surround a piece of text with HTML tags, you’re adding new meaning to that text. Wrapping content in
+tags tells a browser that whatever is inside should be rendered as an “unordered list”. To denote individual items in that list, you wrap them in
+tags, like so:
+Lists
+This is how you make an unordered list:
+
+Add a "ul" element (it stands for unordered list)
+Add each item in its own "li" element
+They don't need to be in any particular order
+After adding this markup to the element (underneath the existing content), you should see a bulleted list with a dedicated bullet for each
+element: Web page showing a
+with
+elements inside of it The HTML specification defines strict rules about what elements can go inside other elements. In this case,
+elements should only contain
+elements, which means you should never ever write something like this:
+Add a "ul" element (it stands for unordered list)
+
+Instead, you should wrap that paragraph with
+tags:
+Add a "ul" element (it stands for unordered list)
+
+How do we know that
+only accepts
+elements and that
+allows nested paragraphs? Because the Mozilla Developer Network (MDN) says so. MDN is a superb HTML element reference. We’ll try to cover as much as we can about how to use basic HTML elements in this tutorial, but whenever you’re not sure about a particular element, do a quick Google search for “MDN ”. ordered lists With an unordered list, rearranging the
+elements shouldn’t change the meaning of the list. If the sequence of list items does matter, you should use an “ordered list” instead. To create an ordered list, simply change the parent
+element to
+. Append the following content to the Lists section of basics.html:
+This is what an ordered list looks like:
+
+Notice the new "ol" element wrapping everything
+But, the list item elements are the same
+Also note how the numbers increment on their own
+You should be noticing things is this precise order, because this is an ordered list
+When you reload the page in your browser, you’ll notice that the browser automatically incremented the count for each
+element. In Hello, CSS, we’ll learn how to change what type of numbers get displayed. Web page showing a
+with
+elements inside of it The difference between an unordered list and an ordered list might seem silly, but it really does have significance to web browsers, search engines, and, of course, human readers. It’s also easier than manually numbering each list item. Step-by-step procedures like recipes, instructions, and even tables of contents are good candidates for ordered lists, while
+lists are better for representing item inventories, product features, pro/con comparisons, and navigational menus. emphasis (italic) elements So far, we’ve only been working with “block-level elements” (also called “flow content”). The other major type of content is “inline elements” or “phrasing content”, which are treated a little bit differently. Block-level elements are always drawn on a new line, while inline elements can affect sections of text anywhere within a line. Diagram: comparison of block elements (wrapping several inline elements) with inline elements (inside of a block element) For instance,
+is a block-level element, while is an inline element that affects a span of text inside of a paragraph. It stands for “emphasis”, and it’s typically displayed as italicized text. Try adding a new section demonstrating emphasized text to our example web page:
+
+Inline Elements
+Sometimes, you need to draw attention to a particular word or phrase.
+
+The part wrapped in tags should render as italics, as shown below. Notice how only part of a line has been affected, which is characteristic of inline elements. In the CSS Box Model chapter, we’ll discover how inline and block elements can have a dramatic impact on the layout of a page. Web page highlighting the italic text created with an element Just in case it hasn’t sunk in yet, it’s really important that you properly nest your HTML elements. It’s easier to mess up the order of tags when you’re using multiple inline elements, so make sure to double-check that your markup never looks like this:
+This is some emphasized text
+
+strong (bold) elements If you want to be more emphatic than an tag, you can use . It’s an inline element just like , and looks like this:
+Other times you need to strongly emphasize the importance of a word or phrase.
+
+It should be rendered in bold text, like so: Web page highlighting the bold text created with a element To draw even more attention your a span of text, you can nest a element in an element (or vice versa). This will give you text that is both strong and emphasized:
+And sometimes you need to shout!
+
+As the example text suggests, this is effectively the typographic equivalent of shouting. Have a read through the Web Typography chapter before going too crazy with the bold and italic fonts. Web page highlighting the bold italic text created with a element wrapped in an element structure versus presentation You might be wondering why we’re using the terms “emphasis” and “strong” instead of “italic” and “bold”. That brings us to an important distinction between HTML and CSS. HTML markup should provide semantic information about your content—not presentational information. In other words, HTML should define the structure of your document, leaving its appearance to CSS. Diagram: HTML as an abstract tree of nodes compared to CSS as various types of rendered text The pseudo-obsolete and elements are classic examples of this. They used to stand for “bold” and “italic”, respectively, but HTML5 attempted to create a clear separation between a document’s structure and its presentation. Thus, was replaced with , since emphasized text can be displayed in all sorts of ways aside from being italicized (e.g., in a different font, a different color, or a bigger size). Same for and . As we’ll discover in Hello, CSS, we can alter the browser’s default rendering of the and elements. This furthers the point that we shouldn’t call it out as italicized or bold text in the HTML—that’s something for CSS to decide. empty html elements The HTML tags we’ve encountered so far either wrap text content (e.g.,
+) or other HTML elements (e.g.,
+
+). That’s not the case for all HTML elements. Some of them can be “empty“ or “self-closing”. Line breaks and horizontal rules are the most common empty elements you’ll find. line breaks HTML condenses consecutive spaces, tabs, or newlines (together known as “whitespace”) into a single space. To see what we’re talking about, add the following section to our basics.html file:
+Empty Elements
+Thanks for reading! Interneting should be getting easier now.
+
+Regards, The Authors
+
+The newline after Regards in the above snippet will be transformed into a space instead of displaying as a line break: Web page showing a plaintext line break collapsing into a space in the rendered page This behavior may seem counter intuitive, but web developers often set their text editor to limit line length to around 80 characters. As a programmer, it’s easier to manage code this way, but having each of the newlines show up in the rendered page would severely mess up the intended page layout. To tell the browser that we want a hard line break, we need to use an explicit
+element, like this:
+Regards,
+The Authors
+
+The
+element is useful anywhere text formatting matters. Haiku, music lyrics, and signatures are just a few examples where it might come in handy. Web page highlighting an actual line break with the
+element However, be very careful not to abuse the
+tag. Each one you use should still convey meaning—you shouldn’t use it to, say, add a bunch of space between paragraphs:
+This paragraph needs some space below it...
+
+So, I added some hard line breaks.
+
+As discussed in the previous section, this kind of presentational information should be defined in your CSS instead of your HTML. horizontal rules The
+element is a “horizontal rule”, which represents a thematic break. The transition from one scene of a story into the next or between the end of a letter and a postscript are good examples of when a horizontal rule may be appropriate. For instance:
+Empty Elements
+Thanks for reading! Interneting should be getting easier now.
+
+Regards,
+The Authors
+
+P.S. This page might look like crap, but we'll fix that with some CSS soon.
+
+One of the themes for this chapter has been the separation of content (HTML) from presentation (CSS), and
+is no different. Like and , it has a default appearance (a horizontal line), but once we start working with CSS, we’ll be able to render it as more space between sections, a decorative accent character, or pretty much anything else we want. Web page demonstrating an
+element Like
+,
+should carry meaning—don’t use it when you just want to display a line for the sake of aesthetics. For that, you’ll want to use the CSS border property, which we’ll discuss in a few chapters. Another way to think about the
+element is that it carries less significance than the separation created by a new heading element, but more significance than a new paragraph. optional trailing slash The trailing slash (/) in all empty HTML elements is entirely optional. The above snippet could also be marked up like this (note the lack of / in the
+and
+tags):
+Regards,
+The Authors
+
+It doesn’t really make a difference which convention you choose, but pick one and stick to it for the sake of consistency. In this tutorial, we’ll be including the trailing / character because it clearly shows that it’s a self-closing element. This will help prevent your eyes from searching for the closing tag elsewhere in the document. summary This chapter may have seemed like an endless list of HTML elements, and, well, it basically was. HTML is pretty simple when it comes right down to it. Web pages are made up of HTML elements, each element adds a different meaning to the text it contains, and elements can be nested inside of each other. What we did in this chapter is always the first step in the web development process—you need to define what you want to say (HTML) before defining how you want to say it (CSS). Hopefully, the basics.html file we created in this chapter will serve as a useful quick-reference of core HTML elements. If you ever happen to misplace it, here’s what it should look like: Web page showing When you reload the page in your browser, you should still see an empty page, but you’ll also see Interneting Is Easy! in the browser tab: Web page showing tag: paragraphs Titles are all well and good, but let’s do something we can actually see. The
+element marks all the text inside it as a distinct paragraph. Try adding the following
+
+element to the body of our web page:
+First, we need to learn some basic HTML.
+
+You should now be able to see some content on the page. Again, since this is content we want to display, it needs to go in the element, not . Web page showing a
+element with some content in it Also note how the
+
+and
+Interneting Is Easy!
+First, we need to learn some basic HTML.
+
+Headings
+Headings define the outline of your site. There are six levels of headings.
+
+This should result in a web page that looks something like this: Web page showing a big
+element and a smaller
+element Headings are the primary way you mark up different sections of your content. They define the outline of your web page as both humans and search engines see it, which makes selecting relevant headings essential for a high-quality web page. unordered lists Whenever you surround a piece of text with HTML tags, you’re adding new meaning to that text. Wrapping content in
+tags tells a browser that whatever is inside should be rendered as an “unordered list”. To denote individual items in that list, you wrap them in
+tags, like so:
+Lists
+This is how you make an unordered list:
+
+Add a "ul" element (it stands for unordered list)
+Add each item in its own "li" element
+They don't need to be in any particular order
+After adding this markup to the element (underneath the existing content), you should see a</p></h6>
+<br>
+
+
+<!-- Q3- html document code -->
+
+<h2><b>Qus-3) HTML Quotes</b></h2>
+<h4> Less-than sign: &lt; </h4>
+<h4> Greater than sign: &gt; </h4>
+<h4> Less than or equal to: &LessSlantEqual;</h4>
+<h4> Greater than or equal to: &GreaterEqual;</h4>
+<h4> Left double quates: &ldquo; </h4>
+<h4> Right double quotes: &rdquo;</h4>
+
+<!-- Q4 HTML DOCUMENTS ATRIBUTE AND ELEMENTS-->
+
+<h2><b>Q. 4 )- Describe the various HTML Elements required to embed the video in an document 
+    and further explain the following HTML attributes :
+    • video
+    • controls
+    • src
+    • poster
+    • width
+    • height</b></h2>
+    <hr>
+
+    <p>The various HTML elements required to emnbed the video in a document are: </p>
+    <ul>
+        <li>Video element</li>
+        <li>Object element</li>
+    </ul>
+    <h3>video element:</h3>
+    <p>The video element takes in two parameters: the source of your video and the controls you want to use.</p>
+    <h3>Object element:</h3>
+    <p>We can also utilize an <object> tag to embed different types of media into an HTML web page. It takes only one parameter that is source of your video.</p>
+    <table border="1">
+        <tr>
+            <th>Attribute</th>
+            <th>Decription</th>
+        </tr>
+        <tr>
+            <td>Control</td> 
+            <td>Specifies that video controls should be displayed (such as a play/pause button etc).</td>
+        </tr>
+        <tr>
+            <td>Src</td>
+            <td>Specifies the URL of the video file</td>
+        </tr>
+        <tr>
+            <td>poster</td>
+            <td>Specifies an image to be shown while the video is downloading, or until the user hits the play button</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>Sets the width of the video player</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Sets the height of the video player</td>
+        </tr>
+    </table>
+
+<!-- HTML elements -->
+
+<video width="300" height="300" poster="/assets/huski pic.jpg" controls>
+    <source src="/assets/Circle_Cut_x264 (1).mp4" type="video/mp4">
+</video>
+
+<!-- html attributes -->
+
+<h3>HTML Attributes</h3>
+<p>Attributes provide additional information about elements, They are always specified in the start tag. Attributes usually come in name/value pairs like: name="value"</p>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Visit for html documentation using Link provided</a>
+<br>
+<iframe src="https://giphy.com/embed/LHZyixOnHwDDy" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/computer-working-cat-LHZyixOnHwDDy">via GIPHY</a></p>
+<img src="/assets/huski pic.jpg " width="350" height="350" alt="HUSKI DOG">
+
+<!--Q5 importance of HTML Attributes 
+    & functionalities -->
+
+<h1><b>Q. 5) - What do you mean by HTML Attributes? Explain the importance of HTML Attributes 
+    in terms of functionalities. Write a HTML document code explaining the various HTML 
+    attributes</b></h1>
+    <hr>
+<h3>HTML Attribute means</h3>
+<hr>
+    <p>Elements in HTML have attributes; these are additional values that configure the elements or adjust their behavior in various ways to meet the criteria the users want.</p>
+    <h3>Functionalities:</h3>
+    <p>HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.
+            Each element or tag can have attributes, which defines the behaviour of that element.You can add multiple attributes in one HTML element, but need to give space between two attributes.</p>
+    <h4>Examples:</h4>
+    <p><b>Color:</b>This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format.</p>
+    <p><b>controls:</b>Indicates whether the browser should show playback controls to the user.</p>
+    <p><b>Height:</b>Specifies the height of elements listed here. For all other elements, use the CSS height property.</p>
+    <p><b>href:</b>The URL of a linked resource.</p>  
+    <p><b>src:</b>The URL of the embeddable content.</p> 
+    <p><b>target:</b>Specifies where to open the linked document where to display the response received </p>
+</body>
+</html>
